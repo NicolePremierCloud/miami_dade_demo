@@ -3,6 +3,7 @@ view: demo_data {
 
   dimension: county {
     type: string
+    drill_fields: [Tract]
     sql: ${TABLE}.County ;;
   }
   dimension: geo_id {
