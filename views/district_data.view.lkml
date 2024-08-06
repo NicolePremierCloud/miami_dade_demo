@@ -379,11 +379,11 @@ view: district_data {
     sql: ${TABLE}.Shape ;;
   }
   dimension: shape_area {
-    type: number
+    type: location
     sql: ${TABLE}.Shape_Area ;;
   }
   dimension: shape_area_104 {
-    type: number
+    type: location
     sql: ${TABLE}.Shape_Area_104 ;;
   }
   dimension: shape_length {
